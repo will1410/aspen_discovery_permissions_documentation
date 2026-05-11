@@ -1,1 +1,21 @@
 
+This permission is actually self-explanatory.
+
+Users with this permission have access to these pages:
+
+- Aspen URL: http://YOUR_ASPEN_DOMAIN/AspenLiDA/HomeScreenLinks
+- Breadcrumbs:  Home >  Browse > Administration Home > Aspen LiDA > Home Screen Links
+
+- Aspen URL: http://YOUR_ASPEN_DOMAIN/AspenLiDA/HomeScreenLinkGroups
+- Breadcrumbs:  Home >  Browse > Administration Home > Aspen LiDA > Home Screen Link Groups
+
+A user with this permission can:
+
+- Add, modify, and delete home screen links for their library/libraries
+- Add, modify, and delete  home screen link groups for their library/libraries
+
+Bugs:
+
+There is a bug (DIS-2340 https://aspen-discovery.atlassian.net/browse/DIS-2340) with this permission.
+It is possible for someone with this permission to create a new home screen link and set the "Share With" value to "Everyone."
+If you do that, you will not be able to edit that link because is is assigned to "Everyone" and not your specific library.
